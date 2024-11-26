@@ -1,36 +1,78 @@
 
-## Project setup
+# RBAC in React
 
-In the project directory frontend, you can run:
+This app is created to show the working of RBAC
 
-npm i or npm install
-then
-npm start
 
-In the project directory backend, you can run:
+## Frontend Setup
 
-npm i or npm install
-then
-node server.js
 
-(Remember to run the SQL Server first before running above command)
+Go to the project directory
 
-## Database setup
+```bash
+  cd frontend
+```
 
-Import the testdb.sql file into phpmyadmin
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm start
+```
+
+
+## Backend Setup
+
+Go to the project directory
+
+```bash
+  cd backend
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  node server.js
+```
+
+
+## Database Setup
+
+    1. Import the testdb.sql file into phpMyAdmin
+
+    2. The testdb.sql file contains the necessary schema and sample data for the project.
+
+
 
 ## Credentials
-User
-Username: user
-Email: user@gmail.com
-Password: 123456
-Moderator
-Username: moderator
-Email: moderator@gmail.com
-Password: 123456
-Admin
-Username: admin
-Email: admin@gmail.com
-Password: 123456
 
-## In the root folder there is a video demonstrating the working of the project 
+You can log in with the following credentials:
+
+- **User**
+  - Username: `user`
+  - Email: `user@gmail.com`
+  - Password: `123456`
+
+- **Moderator**
+  - Username: `moderator`
+  - Email: `moderator@gmail.com`
+  - Password: `123456`
+
+- **Admin**
+  - Username: `admin`
+  - Email: `admin@gmail.com`
+  - Password: `123456`
+## Additional Information
+
+A video demonstrating the working of the project can be found in the root folder of the project directory.
